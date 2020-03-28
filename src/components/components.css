@@ -79,9 +79,14 @@ letter-spacing: 1px;
 #topSecondPage{
     width: 1022px;
     height: 320px;
-    /* padding:20px 21px 0px; */
+    padding:20px 21px 0px;
+    opacity: 2px;
 background-image: url("../assets/clover_card.jpg");
 background-repeat: no-repeat;
 background-size:cover;
 background-position-y: -250px;
+}
+#textTopSecPage{
+display: flex;
+flex-direction: column;
 }

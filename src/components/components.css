@@ -1,3 +1,17 @@
+#cha{
+    text-align: center;
+    font: italic 500 36px/36px "freight-display-pro", Georgia, "Times New Roman", Serif;
+    color:#262626; 
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+#tune{
+    text-align: center;
+    color: #4c4c4c;
+    font: 500 14px/16px "freight-sans-pro", Helvetica, Arial, Sans-Serif!important;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
 #channelMainDiv{
   display: flex;
   flex-direction: column;

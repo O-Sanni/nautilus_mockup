@@ -7,12 +7,12 @@ render()
 {
     return(
         <div id="channelMainDiv">
-        <h1>Channels</h1>
-        <h4>TUNE IN TO NAUTILUS' DEEP DIVE PORTALS</h4>
+        <h1 id="cha">Channels</h1>
+        <h3 id="tune">TUNE IN TO NAUTILUS' DEEP DIVE PORTALS</h3>
         <div id="channels">
             <div className="channelsRows">
                 <div className="separateChDiv">
-                    <h3>BIOLOGY+BEYOND</h3>
+                    <h3><span style={{color: "blue"}}>BIOLOGY</span> +BEYOND</h3>
                     <img className="channelImg" src={require("../assets/bio_and_beyond.jpeg")} alt="biology" />
                     <p>Making Sense of the Genome, at Last</p>
                     <p>by Adam Piare</p>
@@ -38,7 +38,7 @@ render()
                     <p>by Curt Stager</p>
                 </div>
                 <div className="separateChDiv">
-                    <h3>THINK LIKE A SCIENTIST</h3>
+                    <h3><span style={{color: "blue"}}>THINK</span> LIKE A SCIENTIST</h3>
                     <img className="channelImg" src ={require("../assets/tlas.jpeg")} alt="think like a scientist" />
                     <div id="play">
                         <img id="audioChan" src ={require("../assets/Audio_sprite.png")} alt="play" />
@@ -67,7 +67,7 @@ render()
                     <p>by Philip Ball</p>
                 </div>
                 <div className="separateChDiv">
-                    <h3>SCIENCE PHILANTHROPY ALLIANCE</h3>
+                    <h3><span style={{color: "red"}}>SCIENCE</span> PHILANTHROPY ALLIANCE</h3>
                     <img className="channelImg" src ={require("../assets/alliance.png")} alt="alliance" />
                     <p>Taking to the Stars</p>
                     <p>by Science Philanthropy Alliance</p>
@@ -75,7 +75,7 @@ render()
             </div>
             <div className="channelsRows">
                 <div className="separateChDiv">
-                    <h3>MPNeuro</h3>
+                    <h3>MP<span style={{fontWeight: 'bolder'}}>Neuro</span></h3>
                     <img className="channelImg" src ={require("../assets/maxplanck.jpeg")} alt="neuro" />
                     <p>Understanding the Brain with the Help of Artificial Intelligence</p>
                     <p>by Max Planck Institute of Neurobiology</p>

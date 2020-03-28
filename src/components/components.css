@@ -30,3 +30,23 @@ flex-wrap: wrap;
     width: 60px;
     height: auto;
 }
+
+#header{
+position: fixed;
+width: 1500px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+#logo{
+
+}
+.socialMedia{
+   width:34px;
+    height:36px;
+}
+#subscribeButton{
+    background-color: rgb(40, 38, 38);
+    color: white;
+}

@@ -12,14 +12,14 @@ render()
         <div>
             <div>
                 <p>BIOLOGY+BEYOND</p>
-                <img src={require("./assets/bio_and_beyond.jpeg")} alt="biology" />
+                <img src={require("../assets/bio_and_beyond.jpeg")} alt="biology" />
                 <p>Making Sense of the Genome, at Last</p>
                 <p>by Adam Piare</p>
             </div>
             <div>
             <h3>Women in Science & Engineering</h3>
-
-
+            <img src ={require("../assets/wise_sci_and_engineering.png")} alt="woman" />
+            <
             </div>
             <div>
 

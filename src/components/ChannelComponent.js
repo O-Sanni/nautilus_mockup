@@ -11,7 +11,7 @@ render()
         <h4>TUNE IN TO NAUTILUS' DEEP DIVE PORTALS</h4>
         <div>
             <div>
-                <p>BIOLOGY+BEYOND</p>
+                <h3>BIOLOGY+BEYOND</h3>
                 <img src={require("../assets/bio_and_beyond.jpeg")} alt="biology" />
                 <p>Making Sense of the Genome, at Last</p>
                 <p>by Adam Piare</p>
@@ -19,10 +19,14 @@ render()
             <div>
             <h3>Women in Science & Engineering</h3>
             <img src ={require("../assets/wise_sci_and_engineering.png")} alt="woman" />
-            <
+            <p>Your Barain Is On the Brink of Chaos</p>
+            <p>by Kelly Clancy</p>
             </div>
             <div>
-
+            <h3>QUANTA ABSTRACTIONS</h3>
+            <img src ={require("../assets/abstractions.jpeg")} alt="woman" />
+            <p>Mathematicians Calculate How Randomness Creeps In</p>
+            <p>by Marcus Woo</p>
             </div>
         </div>
 

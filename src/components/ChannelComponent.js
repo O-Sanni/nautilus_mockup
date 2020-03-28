@@ -1,19 +1,24 @@
 import React from "react";
 
 
+
 class ChannelComponents extends  React.Component{
 render()
 {
     return(
         <div>
         <h1>Channels</h1>
-        <h2>TUNE IN TO NAUTILUS' DEEP DIVE PORTALS</h2>
+        <h4>TUNE IN TO NAUTILUS' DEEP DIVE PORTALS</h4>
         <div>
             <div>
-                <h1>BIOLOGY+BEYOND</h1>
-                <img src="/src/assets/bio_and_beyond.jpeg" alt="biologyImg" />
+                <p>BIOLOGY+BEYOND</p>
+                <img src={require("./assets/bio_and_beyond.jpeg")} alt="biology" />
+                <p>Making Sense of the Genome, at Last</p>
+                <p>by Adam Piare</p>
             </div>
             <div>
+            <h3>Women in Science & Engineering</h3>
+
 
             </div>
             <div>
@@ -27,3 +32,4 @@ render()
     )
 }
 }
+export default ChannelComponents;

@@ -3,6 +3,11 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
+#channels{
+    display: flex;
+    flex-direction: column;
+    margin-left:350px;
+}
 .channelsRows{
 display: flex;
 flex-direction:row;
@@ -16,4 +21,12 @@ flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+#play{
+    display:flex;
+    flex-direction: row;
+}
+#audioChan{
+    width: 60px;
+    height: auto;
 }

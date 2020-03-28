@@ -9,7 +9,7 @@ class SecondPage extends React.Component{
                 <div id="topSecondPage">
                     <div id="textTopSecPage">
                     <h2 id="spotL">THE NAUTILUS SPOTLIGHT</h2>
-                    <h1 id="lPhys">WHY THE LAWS OF PHYSICS ARE INEVITABLE</h1>
+                    <p id="lPhys">WHY THE LAWS OF PHYSICS ARE INEVITABLE</p>
                     <button id="read" type="button" >READ NOW</button>
                 </div>
                 </div>

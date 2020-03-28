@@ -81,12 +81,27 @@ letter-spacing: 1px;
     height: 320px;
     padding:20px 21px 0px;
     opacity: 2px;
-background-image: url("../assets/clover_card.jpg");
+background-image:url("../assets/clover_card.jpg");
+background-color: rgba(0, 0, 0, 0.484);
 background-repeat: no-repeat;
+background-blend-mode: darken;
 background-size:cover;
 background-position-y: -250px;
 }
 #textTopSecPage{
 display: flex;
 flex-direction: column;
+}
+#spotL{
+    font:700 13px "freight-sans-pro", Arial, Helvetica, sans-serif;
+    color:#fff;
+    margin: 0 auto 10px;
+}
+#lPhys{
+font: 13px "freight-sans-pro", Arial, Helvetica, sans-serif;
+color: #ffb618;
+text-align: center;
+font-size: 50px;
+font-weight: 300px;
+letter-spacing: 0.07px;
 }

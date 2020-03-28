@@ -8,3 +8,12 @@ display: flex;
 flex-direction:row;
 flex-wrap: wrap;
 }
+.channelImg{
+    width:308px;
+    height: 204px;
+}
+.separateChDiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

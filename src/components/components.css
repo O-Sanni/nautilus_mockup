@@ -33,20 +33,33 @@ flex-wrap: wrap;
 
 #header{
 position: fixed;
+padding-top: 20px;
+margin-top: -20px;
 width: 1500px;
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+background-color: white;
+box-shadow: 5px 5px 10px rgba(206, 204, 204, 0.687);
+
 
 }
 #logo{
 
 }
+#navLeft{
+display: flex;
+flex-direction: row;
+margin-left: 50px;
+}
 .socialMedia{
    width:34px;
     height:36px;
+    margin-left: 50px;
 }
 #subscribeButton{
     background-color: rgb(40, 38, 38);
     color: white;
+}
+.navTxtBtn{
+margin-left: 50px;
 }

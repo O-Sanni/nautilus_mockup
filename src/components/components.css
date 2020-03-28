@@ -36,7 +36,7 @@ position: fixed;
 padding: 0px 21px;
 margin: 0px 1px;
 margin-top: -20px;
-width: 1022px;
+width: 1500px;
 height: 80px;
 display: flex;
 flex-direction: row;
@@ -72,12 +72,13 @@ color:#222222;
 text-transform: uppercase;
 letter-spacing: 1px;
 }
+
 #space{
-    width: 970px;
+    width: 1500px;
     height:60px ;
 }
 #topSecondPage{
-    width: 1024px;
+    width: 1500px;
     height: 320px;
     padding:21px 20px 21px;
 background-image:url("../assets/clover_card.jpg");
@@ -85,7 +86,7 @@ background-color: rgba(0, 0, 0, 0.484);
 background-repeat: no-repeat;
 background-blend-mode: darken;
 background-size:cover;
-background-position-y: -250px;
+background-position-y: -400px;
 }
 #textTopSecPage{
 display: flex;
@@ -119,4 +120,9 @@ margin: 0px 1px 13px;
     height: 37px;
     padding: 18px 12px auto;
     margin-top: 25px;
+}
+#secondBottom{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
 }

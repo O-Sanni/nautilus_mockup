@@ -13,7 +13,7 @@ class SecondPage extends React.Component{
                     <button id="read" type="button" >READ NOW</button>
                 </div>
                 </div>
-                <div>
+                <div id="secondBottom">
                   <div>
                     <p>ISSUE  079</p>
                     <h1>CATALYSTS</h1>

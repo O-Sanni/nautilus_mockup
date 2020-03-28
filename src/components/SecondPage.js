@@ -5,6 +5,7 @@ class SecondPage extends React.Component{
     render(){
         return(
             <div id="secondPage" >
+            <div id="space"></div>
                 <div id="topSecondPage">
                     <h3>THE NAUTILUS SPOTLIGHT</h3>
                     <h1>WHY THE LAWS OF PHYSICS ARE INEVITABLE</h1>

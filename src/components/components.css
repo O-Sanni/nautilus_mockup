@@ -44,7 +44,8 @@ box-shadow: 5px 5px 10px rgba(206, 204, 204, 0.687);
 
 }
 #logo{
-
+width: 172px;
+height: 55px;
 }
 #navLeft{
 display: flex;

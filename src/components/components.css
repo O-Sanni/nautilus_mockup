@@ -33,9 +33,11 @@ flex-wrap: wrap;
 
 #header{
 position: fixed;
-padding-top: 20px;
+padding: 0px 21px;
+margin: 0px 1px;
 margin-top: -20px;
-width: 1500px;
+width: 1022px;
+height: 80px;
 display: flex;
 flex-direction: row;
 background-color: white;
@@ -49,7 +51,9 @@ height: 55px;
 }
 #navLeft{
 display: flex;
+margin-top:20px;
 flex-direction: row;
+height: 55px;
 margin-left: 50px;
 }
 .socialMedia{
@@ -63,4 +67,8 @@ margin-left: 50px;
 }
 .navTxtBtn{
 margin-left: 50px;
+font:700 13px "freight-sans-pro", Arial, Helvetica, sans-serif;
+color:#222222;
+text-transform: uppercase;
+letter-spacing: 1px;
 }

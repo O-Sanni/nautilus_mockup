@@ -32,6 +32,9 @@
   flex-wrap: wrap;
   margin-left:-150px;
 }
+#cosmosDiv{
+margin-left: -14px;
+}
 #channels{
     display: flex;
     flex-direction: column;

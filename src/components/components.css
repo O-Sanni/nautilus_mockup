@@ -1,98 +1,116 @@
-
-#header{
-position: fixed;
-padding: 0px 21px;
-margin: 0px 1px;
-width: 1380px;
-height: 80px;
-display: flex;
-flex-direction: row;
-background-color: white;
-box-shadow: 5px 5px 10px rgba(206, 204, 204, 0.687);
-
-
+#header
+{
+    position: fixed;
+    padding: 0px 21px;
+    margin: 0px 1px;
+    width: 1380px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(206, 204, 204, 0.687);
+ }
+    
+ #logo
+ {
+    margin-left: 209px;
+    padding-top: 14px;
+    width: 172px;
+    height: 55px;
 }
-#logo{
-margin-left: 209px;
-padding-top: 14px;
-width: 172px;
-height: 55px;
-}
-#list{
+    
+#list
+{
     display: flex;
     margin-top:20px;
     flex-direction: row;
     height: 55px;
+}
     
- 
+#navLeft
+{
+    display: flex;
+    margin-top:20px;
+    flex-direction: row;
+    height: 55px;
+    margin-left: 30px;
 }
-#navLeft{
-display: flex;
-margin-top:20px;
-flex-direction: row;
-height: 55px;
-margin-left: 30px;
-}
-.socialMedia{
+    
+.socialMedia
+{
     width:20px;
     height:20px;
     margin-left: 20px;
 }
-#subscribeButton{
+    
+#subscribeButton
+{
     background-color: rgb(40, 38, 38);
     color: white;
     width: 98px;
     height: 35px;
     margin-top: 10px;
 }
-.navTxtBtn{
-margin-left: 30px;
-list-style: none;
-font:700 13px "freight-sans-pro", Arial, Helvetica, sans-serif;
-color:#000000;
-text-transform: uppercase;
-letter-spacing: 1px;
+    
+.navTxtBtn
+{
+    margin-left: 30px;
+    list-style: none;
+    font:700 13px "freight-sans-pro", Arial, Helvetica, sans-serif;
+    color:#000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-#space{
+#space
+{
     width: 1380px;
     height:60px ;
 }
-#topSecondPage{
+    
+#topSecondPage
+{
     width: 1380px;
     height: 320px;
     padding:21px 20px 21px;
-background-image:url("../assets/clover_card.jpg");
-background-color: rgba(0, 0, 0, 0.484);
-background-repeat: no-repeat;
-background-blend-mode: darken;
-background-size:cover;
-background-position-y: -400px;
+    background-image:url("../assets/clover_card.jpg");
+    background-color: rgba(0, 0, 0, 0.484);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size:cover;
+    background-position-y: -400px;
 }
-#textTopSecPage{
-display: flex;
-flex-direction: column;
-margin-top: 100px;
-align-items: center;
-
+    
+#textTopSecPage
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
 }
-#spotL{
+    
+#spotL
+{
     font:700 13px "freight-sans-pro", Arial, Helvetica, sans-serif;
     color:#fff;
     margin: 0 auto 10px;
 }
-#lPhys{
-font: 13px "freight-sans-pro", Arial, Helvetica, sans-serif;
-color: #ffb618;
-text-align: center;
-font-size: 50px;
-font-weight: 300px;
-letter-spacing: 0.07px;
-width: 980px;
-height:96px;
-margin: 0px 1px 13px;
+    
+#lPhys
+{
+    font: 13px "freight-sans-pro", Arial, Helvetica, sans-serif;
+    color: #ffb618;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300px;
+    letter-spacing: 0.07px;
+    width: 980px;
+    height:96px;
+    margin: 0px 1px 13px;
 }
-#read{
+    
+#read
+{
     font: 700 12px/1px "freight-sans-pro", Helvetica, Arial, Sans-Serif;
     color: #222222;
     background: #fff;
@@ -102,132 +120,171 @@ margin: 0px 1px 13px;
     padding: 18px 12px auto;
     margin-top: 25px;
 }
-#secondBottom{
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
+    
+#secondBottom
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
-#titleBiology{
+    
+#titleBiology
+{
     width: 177px;
     height: 14px;
     margin-bottom: 10px;
-    }
-    #titleWomen
-    {
-        width: 106px;
-        height: 14px;
-        margin-bottom: 10px;
-    }
-    #titleQuanta
-    {
-        width: 196px;
-        height: 14px;
-        margin-bottom: 10px;
-    }
-    #titleEarth
-    {
-        width: 58px;
-        height: 14px;
-        margin-bottom: 10px;
-    }
-    #titleThink{
-        width: 253px;
-        height: 14px;
-    }
-    #titleCosmos{
-        width: 89px;
-        height: 14px;
-        margin-bottom: 10px;
-    }
-    #titlePoetry{
-        width: 203px;
-        height: 14px;
-        margin-bottom: 10px;
-    }
-    #titleAging{
-        width: 63px;
-        height: 21px;
-        margin-bottom: 10px;
-    }
-    #titleScience{
-        width: 299px;
-        height: 14px;
-        margin-bottom: 10px;
-    }
-    #titlempNeuro{
-        width: 85px;
-        height: 14px;
-        margin-bottom: 10px;
-    }
-    #cha{
-        text-align: center;
-        font: italic 500 36px/36px "freight-display-pro", Georgia, "Times New Roman", Serif;
-        color:#262626; 
-        letter-spacing: 0.02em;
-        margin-bottom: 16px;
-        margin-left: 150px;
-    }
-    .underImgTop{
-        font-family: 18px "freight-sans-pro", Helvetica, Arial, Sans-Serif;
-        font-weight: 500;
-        color: #000;
-        width: 308px;
-        height: 23px;
-        margin:0px 0px 3px;
-        margin-top: 10px;
-    }
-    .underImgBtn{
-        color:#000;
-        font: 12px freight-text-pro, Georgia, 'Times New Roman', Times, serif;
-        font-style: italic;
-    }
-    #tune{
-        text-align: center;
-        color: #4c4c4c;
-        font: 500 14px/16px "freight-sans-pro", Helvetica, Arial, Sans-Serif!important;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        margin-bottom: 50px;
-        margin-left: 200px;
-    }
-    #channelMainDiv{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      margin-left:-150px;
-    }
+}
     
-    #channels{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-left:300px;
-    }
-    .channelsRows{
+#titleWomen
+{
+    width: 106px;
+    height: 14px;
+    margin-bottom: 10px;
+}
+    
+#titleQuanta
+{
+    width: 196px;
+    height: 14px;
+    margin-bottom: 10px;
+}
+    
+#titleEarth
+{
+    width: 58px;
+    height: 14px;
+    margin-bottom: 10px;
+}
+    
+#titleThink
+{
+    width: 253px;
+    height: 14px;
+}
+    
+#titleCosmos
+{
+    width: 89px;
+    height: 14px;
+    margin-bottom: 10px;
+}
+    
+#titlePoetry
+{
+    width: 203px;
+    height: 14px;
+    margin-bottom: 10px;
+}
+    
+#titleAging
+{
+    width: 63px;
+    height: 21px;
+    margin-bottom: 10px;
+}
+    
+#titleScience
+{
+    width: 299px;
+    height: 14px;
+    margin-bottom: 10px;
+}
+    
+#titlempNeuro
+{
+    width: 85px;
+    height: 14px;
+    margin-bottom: 10px;
+}
+    
+#cha
+{
+    text-align: center;
+    font: italic 500 36px/36px "freight-display-pro", Georgia, "Times New Roman", Serif;
+    color:#262626; 
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    margin-left: 150px;
+}
+    
+.underImgTop
+{
+    font-family: 18px "freight-sans-pro", Helvetica, Arial, Sans-Serif;
+    font-weight: 500;
+    color: #000;
+    width: 308px;
+    height: 23px;
+    margin:0px 0px 3px;
+    margin-top: 10px;
+}
+    
+.underImgBtn
+{
+    color:#000;
+    font: 12px freight-text-pro, Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+    
+#tune
+{
+    text-align: center;
+    color: #4c4c4c;
+    font: 500 14px/16px "freight-sans-pro", Helvetica, Arial, Sans-Serif!important;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
+    
+#channelMainDiv
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left:-150px;
+}
+
+#channels
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left:300px;
+}
+    
+.channelsRows
+{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    }
-    .channelImg{
-        width:308px;
-        height: 204px;
-    }
-    .separateChDiv{
-        width: 308px;
-        height: 370px;
-        display: flex;
-        flex-direction: column;
-        text-align: start;
-        flex-wrap: wrap;
-        margin-left: 50px;
+}
     
-    }
-    #play{
-        display:flex;
-        flex-direction: row;
-    }
-    #audioChan{
-        width: 22px;
-        height: 23px;
-        margin-top: 10px;
-    }
+.channelImg
+{
+    width:308px;
+    height: 204px;
+}
+    
+.separateChDiv
+{
+    width: 308px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+    
+#play
+{
+    display:flex;
+    flex-direction: row;
+}
+
+#audioChan
+{
+    width: 22px;
+    height: 23px;
+    margin-top: 10px;
+}

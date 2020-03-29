@@ -41,7 +41,7 @@ render()
                 <img id="titleThink" src={require("../assets/channels/think.svg")} alt="think like a scientist" />
                     <img className="channelImg" src ={require("../assets/tlas.jpeg")} alt="think like a scientist" />
                     <div id="play">
-                        <img id="audioChan" src ={require("../assets/Audio_sprite.png")} alt="play" />
+                        <img id="audioChan" src ={require("../assets/channels/Audio_sprite.png")} alt="play" />
                         <p className="underImgTop">The Best Burger Place Is a Lab</p>
                     </div>
                     <p className="underImgBtn">by Thomas King</p>
@@ -55,19 +55,19 @@ render()
             </div>
             <div className="channelsRows">
                 <div className="separateChDiv">
-                <img id="titleEarth" src={require("../assets/channels/poetry.jpg")} alt="poetry in science" />
+                <img id="titlePoetry" src={require("../assets/channels/poetry.jpg")} alt="poetry in science" />
                     <img className="channelImg" src={require("../assets/poetry.jpeg")} alt="poetry" />
                     <p className="underImgTop">On Observation and Imagination</p>
                     <p className="underImgBtn">by Gillian Osborne</p>
                 </div>
                 <div className="separateChDiv">
-                <img id="titleEarth" src={require("../assets/channels/aging.svg")} alt="aging" />
+                <img id="titleAging" src={require("../assets/channels/aging.svg")} alt="aging" />
                     <img className="channelImg" src ={require("../assets/aging.png")} alt="aging" />
                     <p className="underImgTop">Yes, Life in the Fast Lane Kills You</p>
                     <p className="underImgBtn">by Philip Ball</p>
                 </div>
                 <div className="separateChDiv">
-                <img id="titleEarth" src={require("../assets/channels/earth.jpg")} alt= "science philantropy alliance" /> 
+                <img id="titleScience" src={require("../assets/channels/science.svg")} alt= "science philantropy alliance" /> 
                     <img className="channelImg" src ={require("../assets/alliance.png")} alt="alliance" />
                     <p className="underImgTop">Taking to the Stars</p>
                     <p className="underImgBtn">by Science Philanthropy Alliance</p>

@@ -1,9 +1,62 @@
+#titleBiology{
+width: 177px;
+height: 14px;
+margin-bottom: 10px;
+}
+#titleWomen
+{
+    width: 106px;
+    height: 14px;
+    margin-bottom: 10px;
+}
+#titleQuanta
+{
+    width: 196px;
+    height: 14px;
+    margin-bottom: 10px;
+}
+#titleEarth
+{
+    width: 58px;
+    height: 14px;
+    margin-bottom: 10px;
+}
+#titleThink{
+    width: 253px;
+    height: 14px;
+}
+#titleCosmos{
+    width: 89px;
+    height: 14px;
+    margin-bottom: 10px;
+}
+#titlePoetry{
+    width: 203px;
+    height: 14px;
+    margin-bottom: 10px;
+}
+#titleAging{
+    width: 63px;
+    height: 21px;
+    margin-bottom: 10px;
+}
+#titleScience{
+    width: 299px;
+    height: 14px;
+    margin-bottom: 10px;
+}
+#titlempNeuro{
+    width: 85px;
+    height: 14px;
+    margin-bottom: 10px;
+}
 #cha{
     text-align: center;
     font: italic 500 36px/36px "freight-display-pro", Georgia, "Times New Roman", Serif;
     color:#262626; 
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    margin-left: 150px;
 }
 .underImgTop{
     font-family: 18px "freight-sans-pro", Helvetica, Arial, Sans-Serif;
@@ -25,6 +78,8 @@
     font: 500 14px/16px "freight-sans-pro", Helvetica, Arial, Sans-Serif!important;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    margin-bottom: 50px;
+    margin-left: 200px;
 }
 #channelMainDiv{
   display: flex;
@@ -32,14 +87,12 @@
   flex-wrap: wrap;
   margin-left:-150px;
 }
-#cosmosDiv{
-margin-left: -14px;
-}
+
 #channels{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left:350px;
+    margin-left:300px;
 }
 .channelsRows{
 display: flex;
@@ -51,6 +104,8 @@ flex-wrap: wrap;
     height: 204px;
 }
 .separateChDiv{
+    width: 308px;
+    height: 370px;
     display: flex;
     flex-direction: column;
     text-align: start;
@@ -63,8 +118,9 @@ flex-wrap: wrap;
     flex-direction: row;
 }
 #audioChan{
-    width: 60px;
-    height: auto;
+    width: 22px;
+    height: 23px;
+    margin-top: 10px;
 }
 
 #header{
